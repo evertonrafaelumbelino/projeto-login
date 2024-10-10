@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem">
+                <img src="imagens/metal.jpg" alt="imagem metal">
+            </div>
+
+            <div id="login">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+
+                <form action="login.php" method="post">
+                    <div id="email">
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="iemail" required>
+                    </div>
+                    <div id="senha">
+                        <label for="isen">Senha:</label>
+                        <input type="password" name="sen" id="isen" required minlength="8" maxlength="20">
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
