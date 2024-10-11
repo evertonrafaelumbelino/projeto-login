@@ -8,3 +8,51 @@ Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body, html{
+        width: 100vw;
+        height: 100vh;
+        scrollbar-width: none;
+        background-image: linear-gradient(to bottom, #5f2c82, #4B929A);
+        background-repeat: no-repeat;
+    }
+
+    main{
+        width: 450px;
+        margin-left: 250px;
+        margin-top: 140px;
+        border-radius: 0px 20px 20px 0px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.42);
+    }
+
+    div#imagem{
+        position: absolute;
+        top: 150px;
+        left: 60px;
+    }
+
+    div#imagem > img{
+        display: block;
+        width: 200px;
+        border-radius: 20px 0px 00px 20px;
+        height: 301px;
+    }
+
+    input#iemail{
+        width: 418px;
+    }
+
+    input#isen{
+        width: 416px;
+    }
+
+    input#entrar{
+        width: 450px;
+    }
+
+    div#esquecisen{
+        width: 443px;
+    }
+}
