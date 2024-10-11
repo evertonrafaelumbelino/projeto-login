@@ -46,8 +46,34 @@ div > img{
     top: -10px;
     left: -10px;
     border-radius: 20px 20px 0px 0px;
-    background-position: center ;
+    background-position: center center;
     background-size: cover;
+}
+
+input#iemail{
+    background-color: #94CFCD;
+    border-radius: 5px;
+}
+
+input#isen{
+    background-color: #94CFCD;
+    border-radius: 5px;
+}
+
+input#entrar{
+    background-color: #53AAA7;
+    color: white;
+    width: 235px;
+    padding: 15px 0px 15px 0px;
+}
+
+input#entrar:hover{
+    cursor: pointer;
+    background-color: #2D6462;
+}
+
+span.material-symbols-outlined{
+    color: white;
 }
 
 h1{
