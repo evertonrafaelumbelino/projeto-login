@@ -18,9 +18,9 @@ body{
 main{
     width: 250px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 10px;
-    background-color: lightgray;
+    background-color: white;
     border-radius: 20px;
 }
 
@@ -50,21 +50,48 @@ div > img{
     background-size: cover;
 }
 
+div#esquecisen > a{
+    text-decoration: none;
+    text-align: center;
+    color: #2D6462;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px 12px 12px 12px;
+    display: block;
+    margin: auto;
+    margin-right: -7px;
+}
+
+div#esquecisen > a:hover{
+    background-color: #6CD3CF;
+}
+
 input#iemail{
     background-color: #94CFCD;
     border-radius: 5px;
+    border: none;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 52px 10px 0px;
 }
 
 input#isen{
     background-color: #94CFCD;
     border-radius: 5px;
+    border: none;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 52px 10px 0px;
 }
 
 input#entrar{
     background-color: #53AAA7;
     color: white;
     width: 235px;
-    padding: 15px 0px 15px 0px;
+    padding: 12px 0px 12px 0px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: auto;
 }
 
 input#entrar:hover{
@@ -76,10 +103,14 @@ span.material-symbols-outlined{
     color: white;
 }
 
+span.material-symbols-outlined#mail{
+    color: #2D6462;
+}
+
 h1{
     padding: 10px;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 p{
