@@ -10,5 +10,53 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
-    
+    main{
+        width: 620px;
+    }
+
+    div#imagem{
+        float: left;
+        width: 40%;
+        height: 301px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    div#formulario{
+        float: right;
+        width: 60%;
+    }
+
+    div.emailsenha > input{
+        width: 86%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main{
+        width: 900px;
+    }
+
+    div#imagem{
+        float: right;
+        width: 50%;
+        height: 351px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    div#formulario{
+        float: left;
+        width: 50%;
+    }
+
+    div.emailsenha > input{
+        width: 88%;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1em;
+    }
 }
