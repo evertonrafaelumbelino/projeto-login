@@ -1,2 +1,111 @@
 @charset "UTF-8";
 
+/* Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #5f2c82;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+}
+
+section > div#formulario{
+    padding: 10px;
+}
+
+form > div{
+    margin-bottom: 5px;
+}
+
+div#imagem{
+    width: 250px;
+    height: 200px;
+    background: url(../imagens/metal.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 0.8em;
+    margin: 10px 0px;
+}
+
+div.emailsenha{
+    width: 100%;
+    height: 40px;
+    background-color: #5f2c82;
+    border-radius: 8px;
+}
+
+div.emailsenha > input{
+    background-color: #94CFCD;
+    border: none;
+    width: 78%;
+    padding: 10px;
+    transform: translateY(-9px);
+    border-radius: 8px;
+}
+
+div > input[type=submit]{
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div#botao{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+div#botao > a{
+    color: #2D6462;
+    text-decoration: none;
+}
+
+span.material-symbols-outlined{
+    color: white;
+    padding: 10px;
+}
+
+div#botao > a > span.material-symbols-outlined{
+    padding: 6px 0px 0px 0px;
+    color: #2D6462;
+    font-size: 1em;
+}
